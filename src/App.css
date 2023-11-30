@@ -1,0 +1,85 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#botCollection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bot-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.bot-card:hover {
+  transform: scale(1.05);
+}
+
+.catchphrase {
+  font-style: italic;
+  color: #555;
+}
+
+#botArmy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bot-card.active {
+  border: 2px solid #3498db;
+}
+
+.bot-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.card {
+  position: relative;
+}
+
+.release {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.discharge-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
